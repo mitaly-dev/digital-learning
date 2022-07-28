@@ -1,9 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-h3 {
-  color: #4a4a4a;
-}
 p,
 .nav-link {
   color: #777777;
@@ -30,6 +27,9 @@ img {
 section {
   overflow: hidden;
 }
+
+/* responsive start*/
+
 @media (max-width: 767px) {
   .banner-content {
     width: 90%;
