@@ -23,11 +23,24 @@ img {
 section {
   overflow: hidden;
 }
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .banner-content {
     width: 100%;
   }
   .carousel-img {
     height: 50vh;
+  }
+  .explore-content p {
+    text-overflow: ellipsis;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .explore-content p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rating p {
+    font-size: 14px;
   }
 }
