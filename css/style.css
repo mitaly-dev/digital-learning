@@ -1,0 +1,19 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  color: #1d1d1d;
+}
+h2 {
+  color: #4a4a4a;
+}
+p,
+.nav-link {
+  color: #777777;
+}
+img {
+  object-fit: cover;
+}
+.carousel-img {
+  filter: brightness(45%);
+}
