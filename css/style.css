@@ -17,7 +17,6 @@ img {
 .footer p {
   color: #e8e8e8;
 }
-
 .prev {
   left: -53px;
 }
@@ -27,9 +26,7 @@ img {
 section {
   overflow: hidden;
 }
-
 /* responsive start*/
-
 @media (max-width: 767px) {
   .banner-content {
     width: 90%;
@@ -40,11 +37,7 @@ section {
   .carousel-img {
     height: 50vh;
   }
-  .explore-content p {
-    text-overflow: ellipsis;
-  }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .explore-content p {
     text-overflow: ellipsis;
