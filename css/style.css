@@ -20,11 +20,12 @@ img {
 .footer p {
   color: #e8e8e8;
 }
-.carousel-control-prev {
-  left: -65px;
+
+.prev {
+  left: -53px;
 }
-.carousel-control-next {
-  right: -65px;
+.next {
+  right: -53px;
 }
 section {
   overflow: hidden;
