@@ -14,3 +14,6 @@ img {
 .carousel-img {
   filter: brightness(45%);
 }
+#explore {
+  background-color: #f4fafd;
+}
