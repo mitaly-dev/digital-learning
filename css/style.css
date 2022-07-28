@@ -20,3 +20,14 @@ img {
 .footer p {
   color: #e8e8e8;
 }
+section {
+  overflow: hidden;
+}
+@media (max-width: 575px) {
+  .banner-content {
+    width: 100%;
+  }
+  .carousel-img {
+    height: 50vh;
+  }
+}
